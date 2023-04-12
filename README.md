@@ -2,32 +2,16 @@
 
 ## Requiere instalar dependencias:
 
-- npm i express
-- npm i multer
-- npm i axios
-
+ 
 ## Funcionamiento
 
-- npm run start para ejecutar server
-- npm run dev para ejecutar server con nodemon
+- npm i --> para instalar dependencias
 
-## Configuracion POSTMAN
+- npm run --> start para ejecutar la aplicación
 
-#### Nivell 1 exercicis 1 y 2 help:
+## POSTMAN COLLECTION
 
-- http://localhost:5000/img
-  en Body --> form-data:
-  KEY = imagen type: file | VALUE: mario.png
+- importar archivo desde postman: entrega41.postman_collection.json
 
-#### Nivell 1 exercicis 1 y 2
 
-enviar desde postman:
-{
-"name": "David",
-"age": 37,  
- "password": "asd"
-}
 
-#### Tutorial multer con ejemplo imagen
-
-- https://www.youtube.com/watch?v=wsn6PyQLtfY min 20 aprox
